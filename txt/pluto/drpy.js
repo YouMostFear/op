@@ -1,7 +1,7 @@
 import ch from './cheerio.min.js';
 // import 'http://192.168.10.99:5705/txt/pluto/drT.js';
 // import 'http://192.168.3.239:5705/txt/pluto/drT.js';
-import 'http://gitcode.net/qq_32394351/dr_py/-/raw/master/txt/pluto/drT.js';
+import 'https://raw.githubusercontent.com/YouMostFear/op/master/txt/pluto/drT.js';
 // import 模板 from 'https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/模板.js'
 // var rule = Object.assign(模板.首图2,{
 // host: 'https://www.zbkk.net',
