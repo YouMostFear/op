@@ -1221,7 +1221,7 @@ function init(ext) {
     try {
         // make shared jsContext happy        
         if (typeof (globalThis.mubanJs) === 'undefined') {
-            let mubanJs = request('https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/模板.js', { 'User-Agent': MOBILE_UA });
+            let mubanJs = request('https://raw.githubusercontent.com/YouMostFear/op/master/js/模板.js', { 'User-Agent': MOBILE_UA });
             mubanJs = mubanJs.replace('export default', '(function() {return muban;}()) // export default');
             globalThis.mubanJs = mubanJs;
         }
