@@ -5,7 +5,7 @@ import ch from './cheerio.min.js';
 // var rule = Object.assign(模板.首图2,{
 // host: 'https://www.zbkk.net',
 // });
-import template from 'https://gitcode.net/qq_32394351/dr_py/-/raw/master/txt/pluto/template-web.js'
+import template from 'https://raw.githubusercontent.com/YouMostFear/op/master/txt/pluto/template-web.js'
 
 var ahtml = template.render('hi, <%=value%>.', {value: 'aui'});
 console.log(ahtml);
