@@ -1867,7 +1867,7 @@ function init(ext) {
     try {
         // make shared jsContext happy muban不能import,不然会造成换源继承后变量被篡改
         if (typeof (globalThis.mubanJs) === 'undefined') {
-            let mubanJs = request('https://gitcode.net/qq_32394351/dr_py/-/raw/master/js/模板.js', { 'User-Agent': MOBILE_UA });
+            let mubanJs = request('https://raw.githubusercontent.com/YouMostFear/op/master/js/模板.js', { 'User-Agent': MOBILE_UA });
             mubanJs = mubanJs.replace('export default', '(function() {return muban;}()) // export default');
             // console.log(mubanJs);
             globalThis.mubanJs = mubanJs;
