@@ -1,5 +1,5 @@
-import cheerio from 'https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/cheerio.min.js';
-import 'https://gitcode.net/qq_32394351/dr_py/-/raw/master/libs/crypto-js.js';
+import cheerio from 'https://raw.githubusercontent.com/YouMostFear/op/master/libs/cheerio.min.js';
+import 'https://raw.githubusercontent.com/YouMostFear/op/master/libs/crypto-js.js';
 
 function init_test(){
     // console.log(typeof(CryptoJS));
